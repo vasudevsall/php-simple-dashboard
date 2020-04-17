@@ -5,6 +5,9 @@ This was created as a self learning project and is really good for beginners in 
 * Secured login system with hashed password.
 * Secured registration system with sending verification link via mails.
 * Resetting forgotten password by sending verification link to mail.
+* The dashboard contains two pages home and profile.
+* The profile page contains the comlplete information by the user and the profile pciture.
+* The profile picture can be uploaded by the user.
 
 ### Registration constraints include:
 * Username containing only a-z, A-z, 0-9 and an _.
