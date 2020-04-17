@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap');
+
+.center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-opace-div {
+    display: block;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    width: calc(100vw - 100px);
+    height: calc(100vh - 300px);
+    background-color: rgba(255,255,255,0.3);
+    box-shadow: 0 0 20px 0 black;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    padding: 20px;
+}
+
+.border-div {
+    border-radius: 20px;
+    position: relative;
+    display: block;
+    width: calc(100vw - 100px);
+    height: calc(100vh - 300px);
+    border: 2px inset #ffc107aa;
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 20px 0 black;
+}
+
+.profile-picture {
+    position: absolute;
+    height: 200px;
+    max-width: 200px;
+    top: 40px;
+    left: 40px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);
+}
+
+.file-input-div {
+    width: 200px!important;
+    position: absolute;!important;
+    top: 250px;
+    left: 40px;
+}
+
+.personal-information-div {
+    padding: 10px;
+    position: absolute;
+    height: 310px;
+    width: 250px;
+    top: 40px;
+    left: 400px;
+    /*border: 2px solid red;*/
+}
+
+.personal-values-div {
+    padding: 10px;
+    position: absolute;
+    height: 310px;
+    width: 450px;
+    top: 40px;
+    left: 650px;
+    /*border: 2px solid red;*/
+}
+
+.head-label {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 30px;
+    color: #3274d6;
+    text-shadow: 0 0 5px rgba(50,116,214,0.5);
+    /*display: inline;*/
+}
+
+.info-label {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 30px;
+    color: rgba(255,255,255,0.8);
+    /*display: inline;*/
+}
+
+.file-upload-button {
+    width: 200px;
+    height: 40px;
+    position: absolute;
+    top: 300px;
+    left: 40px;
+    padding: 10px;
+    background-color: rgba(50,116,214,0.3);
+    border: 0;
+    cursor: pointer;
+    font-weight: bold;
+    color: #ffffff;
+    transition: background-color 0.5s;
+}
+.file-upload-button:hover {
+    background-color: #3274d6;
+    transition: background-color 0.5s;
+}
+
+.information-label {
+    font-size: 14px;
+    color: red;
+    position: absolute;
+    top: 350px;
+    left: 40px;
+}

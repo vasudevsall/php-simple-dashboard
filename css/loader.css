@@ -1,0 +1,111 @@
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+@keyframes rotate2 {
+    0% {
+        transform: rotate(0deg);
+        /*border-top-color: rgba(0, 0, 0, 0.5);*/
+        border-top-color: #3274d6;
+    }
+    50% {
+        transform: rotate(180deg);
+        /*border-top-color: rgba(0, 0, 255, 0.5);*/
+        border-top-color: #ffffff;
+    }
+    100% {
+        transform: rotate(360deg);
+        /*border-top-color: rgba(0, 0, 0, 0.5);*/
+        border-top-color: #3274d6;
+    }
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #435165!important;
+    padding-bottom: 100px;
+}
+
+.loader {
+    position: relative;
+    margin: 75px auto;
+    width: 150px;
+    height: 150px;
+    display: block;
+    overflow: hidden;
+}
+.loader div {
+    height: 100%;
+}
+
+/* loader 1 */
+.loader1, .loader1 div {
+    border-radius: 50%;
+    padding: 8px;
+    border: 2px solid transparent;
+    animation: rotate linear 3.5s infinite;
+    /*border-top-color: rgba(0, 0, 0, 0.5);*/
+    border-top-color: #3274d6;
+    /*border-bottom-color: rgba(0, 0, 255, 0.5);*/
+    border-bottom-color: #ffffff;
+}
+
+.center-div {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wait-text {
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.verified-anchor {
+    text-decoration: none;
+    text-align: center;
+    font-size: 30px;
+    color: #ffffff;
+}
+.verified-anchor:hover {
+    text-decoration: none;
+    color: #28a745;
+}
+
+.fixed-image {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 500px;
+    height: auto;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    z-index: -1;
+}
+.copy-anchor {
+    text-decoration: none;
+    position: fixed;
+    font-size: 0.5rem;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.invisible {
+    display: none;
+}

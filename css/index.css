@@ -1,0 +1,114 @@
+body {
+    background-color: #435165!important;
+    /*background: linear-gradient(to left, #66ccff -50%, #ffccff 100%);*/
+    /*linear-gradient(to left, #10294c 0%, #f04e23aa 100%)*/
+}
+
+.sign-in-image {
+    z-index: -1;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 400px;
+    height: auto;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.copy-anchor {
+    text-decoration: none;
+    position: fixed;
+    font-size: 0.5rem;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+/*Form starts*/
+#form-div {
+    /*border: solid 3px #fdb813;*/
+    background-color: #fff;
+    width: 400px;
+    margin-top: 150px;
+    margin-left: 300px;
+    box-shadow: 0 0 9px 0 rgba(0,0,0,0.3);
+}
+#form-div h1 {
+    text-align: center;
+    color: #5b6574;
+    font-size: 24px;
+    padding: 20px 0 20px 0;
+    border-bottom: 1px solid #dee0e4;
+}
+#form-div form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+}
+#form-div form input[type="text"], #form-div form input[type="password"] {
+    width: 310px;
+    height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid #000000;
+    /*margin: 20px 20px 20px 0;*/
+    padding: 0 15px;
+}
+#form-div form label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: #3274d6;
+    color: #fff;
+}
+#form-div form input[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #3274d6;
+    border: 0;
+    cursor: pointer;
+    font-weight: bold;
+    color: #ffffff;
+    transition: background-color 0.2s;
+}
+#form-div form input[type="submit"]:hover {
+    background-color: #2868B2;
+    transition: background-color 0.2s;
+}
+#form-div form .end-anchor {
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    padding: 15px;
+    background-color: #3274d6;
+    border: 0;
+    cursor: pointer;
+    font-weight: bold;
+    color: #ffffff;
+    transition: background-color 0.2s;
+}
+#form-div form .end-anchor:hover{
+    background-color: #2868B2;
+    transition: background-color 0.2s;
+}
+
+.div-right {
+    display: block;
+    width: 100%;
+    text-align: right;
+}
+
+.forgot-anchor {
+    margin-right: 20px;
+    text-decoration: none;
+    color: red;
+    font-size: 10px;
+}
+
+.red-border {
+    border: 1px solid red!important;
+}
+/*Form ends*/
