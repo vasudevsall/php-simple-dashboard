@@ -15,7 +15,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
     $database_name = 'sampledashboard';
     $conn = mysqli_connect($database_host, $database_user, $database_pass,$database_name);
     if(mysqli_connect_errno()){
-        header('Location: error.html');
+        header('Location: error.php');
 //        exit("Connection Error");
     }
 
@@ -88,8 +88,9 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
                         $message = '<p>Please click the following link to activate your account: <a href="' . $activate_link . '">' . $activate_link . '</a></p>';
                         mail($_POST['email'], $subject, $message, $headers);
                         $verificationSent = TRUE;
+
                     } else {
-                        header('Location: error.html');
+                        header('Location: error.php');
                     }
         }
     }

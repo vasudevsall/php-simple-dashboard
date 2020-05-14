@@ -8,7 +8,7 @@ $database_name = 'sampledashboard';
 
 $conn = mysqli_connect($database_host, $database_user, $database_pass, $database_name);
 if(mysqli_connect_errno()) {
-    header('Location: error.html');
+    header('Location: error.php');
 }
 
 if(isset($_GET['email'], $_GET['code'])) {
@@ -38,7 +38,7 @@ if(isset($_GET['email'], $_GET['code'])) {
             }
         }
     } else {
-        header('Location: error.html');
+        header('Location: error.php');
     }
 }
 ?>

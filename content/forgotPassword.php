@@ -11,7 +11,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
 
     $conn = mysqli_connect($database_host, $database_user, $database_pass, $database_name);
     if(mysqli_connect_errno()) {
-        header('Location: error.html');
+        header('Location: error.php');
     }
 
     if(!isset($_POST['username'])) {
@@ -33,7 +33,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
                     $stmt1->bind_param('ss',$uniqid, $_POST['username']);
                     $stmt1->execute();
                 } else {
-                    header('Location: error.html');
+                    header('Location: error.php');
                 }
                 $from = 'noreply@sampledashboard.com';
                 $subject = 'Password Change Request';
@@ -47,7 +47,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
                 $user_exist = FALSE;
             }
         } else {
-            header('Location: error.html');
+            header('Location: error.php');
         }
     }
 }

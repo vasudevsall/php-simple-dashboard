@@ -7,10 +7,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
-    <execution>
-      <executable />
-    </execution>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/sendgrid-php-7.5.0/composer.json</pharConfigPath>
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -23,18 +22,18 @@
   <component name="ProjectId" id="1aTGUKQEO8hSwJCcgcUo4ogD5gu" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/sampleDashboard" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\sampleDashboard" />
       <recent name="C:\xampp\htdocs\sampleDashboard\content\loggedin" />
     </key>
   </component>
@@ -50,32 +49,60 @@
       <updated>1586752184117</updated>
       <workItem from="1586752185752" duration="90713000" />
       <workItem from="1587096876491" duration="600000" />
+      <workItem from="1587880755792" duration="20000" />
+      <workItem from="1588069185010" duration="460000" />
+      <workItem from="1588069703974" duration="40000" />
+      <workItem from="1588312162156" duration="26000" />
+      <workItem from="1588417761169" duration="643000" />
+      <workItem from="1588418533247" duration="711000" />
+      <workItem from="1588420212184" duration="115000" />
+      <workItem from="1588478068194" duration="240000" />
+      <workItem from="1588484712677" duration="280000" />
+      <workItem from="1588503723999" duration="95000" />
+      <workItem from="1589262494521" duration="107000" />
+      <workItem from="1589284540428" duration="1816000" />
+      <workItem from="1589342141565" duration="7038000" />
+      <workItem from="1589355071313" duration="10814000" />
+      <workItem from="1589382562350" duration="3942000" />
+      <workItem from="1589426695297" duration="3877000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="170" key="FileChooserDialogImpl" timestamp="1586752362776">
+    <state x="532" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589356033118">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586752362776" />
+    <state x="532" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1589356033118" />
+    <state x="449" y="151" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1588069197914">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="151" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1588069197914" />
+    <state x="549" y="170" key="FileChooserDialogImpl" timestamp="1589430216285">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1589430216285" />
     <state x="543" y="247" key="NewPhpClassDialog" timestamp="1587031027786">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="543" y="247" key="NewPhpClassDialog/0.0.1536.824@0.0.1536.824" timestamp="1587031027786" />
-    <state x="604" y="344" key="NewPhpFileDialog" timestamp="1587031035920">
+    <state x="604" y="344" key="NewPhpFileDialog" timestamp="1589428026076">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="604" y="344" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1587031035920" />
-    <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1587017558098">
+    <state x="604" y="344" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1589428026076" />
+    <state x="477" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1588069185946">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1587017558098" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1586939820252">
+    <state x="477" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1588069185946" />
+    <state x="425" y="186" width="672" height="677" key="run.anything.popup" timestamp="1589370933853">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1586939820252" />
+    <state x="425" y="186" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1589370933853" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1589385750501">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1589385750501" />
   </component>
 </project>

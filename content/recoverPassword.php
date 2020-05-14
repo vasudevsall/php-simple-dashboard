@@ -12,7 +12,7 @@ $database_name = 'sampledashboard';
 
 $conn = mysqli_connect($database_host, $database_user, $database_pass, $database_name);
 if(mysqli_connect_errno()) {
-    header('Location: error.html');
+    header('Location: error.php');
 }
 if($stmt = $conn->prepare('SELECT password FROM accounts WHERE email = ? AND password_change=?')) {
     $stmt->bind_param('ss', $_GET['email'], $_GET['code']);
@@ -23,10 +23,10 @@ if($stmt = $conn->prepare('SELECT password FROM accounts WHERE email = ? AND pas
         $stmt->fetch();
     } else {
         $account_not_found = TRUE;
-        header('Location: error.html');
+        header('Location: error.php');
     }
 } else {
-    header('Location: error.html');
+    header('Location: error.php');
 }
 if($account_not_found === FALSE && $_SERVER['REQUEST_METHOD'] == 'POST') {
     if(strlen($_POST['password1'])>20 || strlen($_POST['password1'])<4) {
@@ -42,7 +42,7 @@ if($account_not_found === FALSE && $_SERVER['REQUEST_METHOD'] == 'POST') {
                 $_SESSION['passwordchange'] = TRUE;
                 header('Location: ../index.php');
             } else {
-                header('Location: error.html');
+                header('Location: error.php');
             }
         } else {
             $password_mismatch = TRUE;

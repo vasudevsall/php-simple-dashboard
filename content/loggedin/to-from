@@ -1,0 +1,20 @@
+<div class="from-message">
+                    <img src="../../images/male.png" alt="profile-picture" class="from-image">
+                    <div class="left-triangle"></div>
+                    <div class="message-wrapper">
+                        <label class="profile-name">Vasu Dev Sall</label>
+                        <hr class="divider">
+                        <p class="message-content">Hi I am vasu Dev Sall. I am doing good, how are you doing</p>
+                    </div>
+                </div>
+
+
+<div class="to-message">
+                    <div class="to-message-wrapper">
+                        <label class="profile-name">Vasu Dev Sall</label>
+                        <hr class="to-divider">
+                        <p class="message-content">Hi I am vasu Dev Sall. I am doing good, how are you doing</p>
+                    </div>
+                    <div class="right-triangle"></div>
+                    <img src="../../images/male.png" alt="profile-picture" class="to-image">
+                </div>

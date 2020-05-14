@@ -11,12 +11,12 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
     $conn = mysqli_connect($database_host, $database_user, $database_pass, $database_name);
     if (mysqli_connect_errno()) {
         exit("Error");
-//        header('Location: error.html');
+//        header('Location: error.php');
     }
 
     if (!isset($_POST['username'], $_POST['password'])) {
         exit("Error");
-//        header('Location: error.html');
+//        header('Location: error.php');
     }
 
     if ($stmt = $conn->prepare('SELECT activation_code, email FROM accounts WHERE username=?')) {
@@ -25,7 +25,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
         $stmt->store_result();
         $stmt->bind_result($activation, $email);
         $stmt->fetch();
-        if ($activation != 'activated') {
+        if ($activation != 'activated' && $stmt->num_rows() > 0) {
 //            exit("I am going here");
             $nonverifiedaccount = TRUE;
 
@@ -70,6 +70,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 <!DOCTYPE html>
 <html>
     <head>
+        <title>Welcome Back!</title>
         <meta charset="utf-8">
         <link href="./css/index.css" type="text/css" rel="stylesheet">
         <link href="./css/bootstrap.css" type="text/css" rel="stylesheet">
