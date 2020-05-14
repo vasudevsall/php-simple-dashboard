@@ -5,7 +5,7 @@ This was created as a self learning project and is really good for beginners in 
 * Secured login system with hashed password.
 * Secured registration system with sending verification link via mails.
 * Resetting forgotten password by sending verification link to mail.
-* The dashboard contains two pages home and profile.
+* The dashboard contains three pages home, profile and a common chat room.
 * The profile page contains the comlplete information by the user and the profile pciture.
 * The profile picture can be uploaded by the user.
 
@@ -22,4 +22,4 @@ This was created as a self learning project and is really good for beginners in 
 ### Setting up this project's database:
 * The database name mentioned in this project is *sampledashboard*.
 * The table name is accounts
-* The columns include id, username, password, email, activation_code, first_name, last_name, gender, birth_date, password_change, profile_pic.
+* Another table is messages for storing common chat room messages
