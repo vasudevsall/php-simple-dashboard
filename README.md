@@ -23,3 +23,6 @@ This was created as a self learning project and is really good for beginners in 
 * The database name mentioned in this project is *sampledashboard*.
 * The table name is accounts
 * Another table is messages for storing common chat room messages
+
+##### You can look up the project at [info-room](info-room.epizy.com)
+- Only problem with this is that chat script is banned by infinityfree. So, you cannot see that
